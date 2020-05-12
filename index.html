@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" id="bootstrap-css">
+<script src="Scripts/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+</head>
+<body>
+
+
+
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img  id="icon"  />
+    </div>
+
+    <!-- Login Form -->
+    <form id="loginform" method="post">
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="username">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+      <input type="submit" class="fadeIn fourth" value="Log In">
+<p id ="error" ></p>      
+	</form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+	  
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+$("#loginform").submit(function (e){
+login(e);
+});
+function login(e){
+
+var username = $("#login").val();
+var password = $("#password").val();
+var p = "123456";
+var user = "harish";
+e.preventDefault();
+if(password == p && username == user ){
+//window.open("D:/LearningMangement/LearningManagementSolution/Layout.html");
+window.location.href="D:/LearningMangement/LearningManagementSolution/Layout.html";
+//window.location.replace("D:/LearningMangement/LearningManagementSolution/Layout.html");
+}
+else{
+$("#error").text("please enter valid credentials");
+
+}
+
+}
+
+</script>
+</body>
+</html>
