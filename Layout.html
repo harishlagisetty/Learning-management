@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="Menu.css" rel="stylesheet">
+    <link href="Layout.css" rel="stylesheet">
+    <script src="Scripts/Student1.js"></script>
+    <script src="Scripts/alphabet1.js"></script>
+    <script src="Scripts/color1.js"></script>
+    <script src="Scripts/table1.js"></script>
+    <script src="Scripts/teacher1.js"></script>
+ <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script>-->
+ <script src="Scripts/jquery.min.js"></script>
+ <script  src="Scripts/jspdf.min.js"></script>
+    <title>  Learning Management Solution </title>
+</head>
+<body>
+    <div id="welcomeName"><center><h3>Welcome to Learning Management</h3></center></div>
+
+    <div class="menu">
+        <div>Modified On : April 12 2020.V11</div>
+        <div class="vertical-menu">
+            <a>Menu</a>
+            <a href="#" style="color:red;">Admin</a>
+            <a id="TMID" onclick="Tmenu()" style="cursor:pointer;">Teacher Management</a>
+            <a href="#">Report Management</a>
+            <a href="#">Receipts</a>
+            <a href="#" style="color:red;">
+                Student</span>
+                <a href="#" id="studentMenuID" onclick="studentMenu()">Learning Materials</a>
+        </div>
+    </div>
+    <div class="menu1" id="menu1id">
+        <h2 style="color:black;">
+        </h2>
+    </div>
+    <div id="menuInn" class="menuInner">
+        
+        <div class="menu2" id="menu2id" style="display:block">
+            <h2 style="display:none"> Inside menu bar div</h2>
+        </div>
+        <div class="menu3" id="menu3id" style="display:block">
+        </div>
+    </div>
+    <div id="divprint" style="display:none">
+        <p><label id="" style="font-size:40px">Teacher:</label><label style="font-size:35px" id="teacherval"></label> </br></p>
+        <p><label id="" style="font-size:40px">Class:</label><label style="font-size:35px" id="classval"></label></br></p>
+        <p><label id="" style="font-size:40px">Subject:</label><label style="font-size:35px" id="subjectval"></label></br></p>
+        <p><label id="" style="font-size:40px">PhoneNumber:</label><label style="font-size:35px" id="phoneval"></label></br></p>
+        <p><label id="" style="font-size:40px">Gender:</label><label style="font-size:35px" id="generval"></label></br></p>
+
+    </div>
+</body>
+</html>

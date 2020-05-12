@@ -1,0 +1,76 @@
+.vertical-menu {
+    height:00px;
+     width: 200px;
+     margin-top: 66px;
+}
+.vertical-menu a  {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #555;
+ 
+}
+.vertical-menu span {
+    /*-color: #eee;*/
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #555;
+ 
+}
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+.menu3{
+    height:248px;
+    border: 1px solid black;
+    float:right;
+    width: 52%; 
+    padding: 15px;
+    text-align:center;}
+
+.pointercursor {
+    cursor:pointer;
+}
+/* Used to display the menu for symbols*/
+
+.vertical-menu-Inner {
+    height: 00px;
+    width: 143px;
+    margin-top: 66px;
+}
+
+.vertical-menu-Inner a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #555;
+}
+
+.vertical-menu-Inner {
+    background-color: #eee;
+    color: black;
+    display: block;
+    /*padding: 10px;*/
+    text-decoration: none;
+    border: 1px solid #555;
+}
+
+.vertical-menu-Inner {
+    background-color: #ccc;
+}
+.marleft {
+    margin-left: 48px;
+}
+.Setbut {
+    margin-left: 48px;
+    background-color: yellow;
+}
+.required {
+    color: red;
+  }

@@ -1,0 +1,119 @@
+.menu {
+    height: 396px;
+    border: 1px solid black;
+    float: left;
+    width: 14.5%;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu1 {
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    width: 70%;
+    padding: 12.9px;
+    text-align: center;
+}
+
+.menu2 {
+    height: 347px;
+    border: 1px solid black;
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+
+.menu3 {
+    height: 317px;
+    border: 1px solid black;
+    float: left;
+    width: 80.9%;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.menuInner {
+    height: 347px;
+    border: 1px solid black;
+    float: left;
+    width: 72%;
+    text-align: center;
+}
+/*css for the students menu*/
+.Menustu {
+    overflow: hidden;
+}
+
+.Menustu a {
+    /*margin: 1px;*/
+    margin-top: 20px;
+    margin-bottom: 100px;
+    float: left;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px 50px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    font-weight: bold;
+    }
+
+.Mencol ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Menucol li {
+   display: inline;
+    border: 1px solid black;
+    /*padding: 14px 80px;*/
+    padding: 14px 70px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: #e8d0d0;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    margin-top: 34px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.martop {
+    margin-top: 48px;
+     margin-left: auto;
+  margin-right: auto;
+}
+
+.martop109 {
+    margin-top: 109px;
+    
+}
+.Menutech a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+.marleft{
+    margin-left:48px;
+}
+.font20 {
+    font-size:20px;
+}
+
